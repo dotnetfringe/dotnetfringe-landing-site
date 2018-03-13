@@ -5,19 +5,21 @@ body, html {height: 100%;}
 .wrapper {box-sizing: border-box; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto; }
 
 
-a {color: #777; text-decoration: none; border-bottom: 1px solid #CCFF26;}
-a:hover {border-bottom: 1px solid #CCFF26; color: #222}
+a {color: #777; text-decoration: none; border-bottom: 2px solid #ffd5d5;}
+a:hover {border-bottom: 2px solid #ffd5d5; color: #222}
 p {font-weight: 200; font-size: 20px;}
 
-.name {font-family: Playfair Display; font-size: 50px; font-weight: 900; padding-bottom: 20px;}
-
-.container {margin: 0 auto; width: 600px; height: 400px; padding: 80px 12px; overflow: auto;}
+.container {margin: 0 auto; max-width: 600px; padding: 80px 12px; overflow: auto;}
 
 .meta {text-transform: uppercase; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em;}
-.meta a:hover {border-bottom: 1px solid #CCFF26; color: #333;}
+.meta a:hover {border-bottom: 2px solid #ffd5d5; color: #333;}
 
-.inline-list {list-style: none; margin: 0; padding: 0;}
+.inline-list {list-style: none; margin: 0; padding: 0; text-align: center;}
 .inline-list li {display: inline-block;}
 
+.mailinglist input[type=text] {line-height: 1.6em; text-transform: uppercase; border: 1px solid #CCC; padding: 2px 4px; border-radius: 0;}
+.mailinglist input[type=submit] {text-transform: uppercase; background-color: #ffd5d5; border: none; color: #777; padding: 2px 4px; line-height: 1.6em; text-decoration: none; margin: 4px 2px; cursor: pointer;}
+.mailinglist input[type=submit]:hover {background-color: #eed5d5;}
+
 footer .inline-list li {padding-right: 40px;}
-footer {margin: 0 auto; position: absolute; bottom: 0px; padding: 40px 0; width: 600px;}
+footer {padding: 40px 40px;}
